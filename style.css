@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+/* Menu superior */
+#logo{
+    margin-left: 50px;
+    margin-top: 62px;;
+}
+
+#menu_superior{
+    background-image: url(/Imagens/fundo-dnc.png);
+    color: aliceblue;
+}
+
+#titulo_menusuperior{
+    margin-left: 160px;
+    margin-top: 80px;
+    font-weight: 300;
+}
+
+#paragrafo_menusuperior{
+    margin-left: 160px;
+    margin-top: 30px;
+    font-weight: 300;
+    padding-bottom: 150px;
+}
+
+/* Menu informacional */
+#menu_informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.textoinformativo {
+    display: flex;
+    align-items: center;
+}
+
+/* Seção de vídeo */
+#secao_video {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#videodnc {
+    margin: 50px 25px 50px 125px;
+}
+
+#titulo_video{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+/* Seção carrossel */
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo_carrossel{
+    text-align: center;
+    color: #EAECE5;
+    font-size: 25px;
+}
+
+#div_cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#seta_esquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 65%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+/* Seção formulário */
+#formulario {
+    text-align: center;
+}
+
+#titulo_formulario {
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input {
+    Width: 300px;
+    Height: 40px;
+    background-color: #EAECE5;
+    margin: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    Width: 250px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    background-color: #247BA0;
+    color: #FFFFFF;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3aacdd;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 5px 10px #07081e9c;
+}
