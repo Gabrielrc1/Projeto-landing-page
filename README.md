@@ -1,2 +1,2 @@
 # Projeto-landing-page
-projeto de desenvolvimento do módulo base da DNC.
+projeto de desenvolvimento de uma landing-page.
