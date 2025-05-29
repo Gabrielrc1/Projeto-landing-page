@@ -1,2 +1,2 @@
 # Projeto-landing-page
-projeto de desenvolvimento de uma landing-page.
+projeto de exemplo de uma landing page feito no curso da DNC.
